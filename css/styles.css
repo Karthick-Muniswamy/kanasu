@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  background-color: #393e46;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+h2 {
+  padding-top: 50px;
+  margin-bottom: 0;
+}
+
+p {
+  margin-top: 0;
+  font-size: 1.25rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.name {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  text-align: center;
+  color: black;
+  margin-left: 15rem;
+  bottom: 20px;
+}
+
+.guide {
+  position: fixed;
+  background-color: white;
+  top:30px;
+  right: 50px;
+}
+
+a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: black;
+  margin: 10px 20px;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+
+.portfolio-images{
+  margin: 50px 0 30px 45px;
+}
+
+.About-body {
+  background-color: #a7bbc7;
+  text-align: center;
+}
+
+.about-details {
+  position: absolute;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  top: 100px;
+  left: 200px;
+  color: black;
+  font-size: 42px;
+}
+
+.contact-body {
+  text-align: center;
+  margin-top: 65px;
+  background-color: #faf3f3;
+}
+
+.service {
+  margin: 100px auto;
+  width: 33%
+}
+
+.contact-info {
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  top: 250px;
+  right: 850px;
+}
+
+.contact-button {
+    border: 0;
+    line-height: 2.5;
+    margin-left: 25px;
+    padding: 0 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    background-color: black;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.contact-button:hover {
+    background-color: #30e3cb;
+}
+
+.contact-button:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
